@@ -1,0 +1,15 @@
+#1.使用print直接输出类型信息
+print(type("name"))
+print(type(123456))
+print(type(1.2))
+print("-----------------------------------------------------")
+#2.使用变量存储type()语句的结果
+str_name = type("name")
+int_name = type(123)
+float_name = type(1.2)
+print(type(str_name))
+print(type(int_name))
+print(type(float_name))
+print("-----------------------------------------------------")
+#3.使用type(语句,查看变量中存储的数据类型信息)
+print(type(str_name))
